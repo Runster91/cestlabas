@@ -26,7 +26,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -88,6 +88,40 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   padding: 2em;
+  border-color: #1a1a1a;
+  
+
+}
+
+#chartapi{
+  height: 35em;
+  width: 100%;
+}
+
+#app{
+  width: 20px;
+  color: red;
+
+
+
+}
+
+header{
+  font-size: x-large;
+  font-weight: bolder;
+  
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  padding: 1px;
+  height: 1em;
+}
+
+img{
+  border-radius: 120px;
+  width: 3em;
 }
 
 @media (prefers-color-scheme: light) {
