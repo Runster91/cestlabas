@@ -122,6 +122,7 @@ footer{
 img{
   border-radius: 120px;
   width: 3em;
+  padding: 1em;
 }
 
 @media (prefers-color-scheme: light) {

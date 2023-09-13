@@ -32,8 +32,8 @@ export const idsalario = async () => {
             label: 'Salary in USD',
             data: filteredData.map((row) => row.employee_salary),
             backgroundColor: [
-              'rgba(255, 99, 132, 0.2)',
-              'rgba(255, 159, 64, 0.2)',
+              'rgba(247, 199, 24 )',
+              'rgba(242, 121, 14 )',
               // Add more colors as needed
             ],
           },
@@ -41,8 +41,8 @@ export const idsalario = async () => {
             label: 'Age',
             data: filteredData.map((row) => row.employee_age),
             backgroundColor: [
-              'rgba(75, 192, 192, 0.2)',
-              'rgba(153, 102, 255, 0.2)',
+              'rgba(184, 42, 12 )',
+              'rgba(181, 123, 27 )',
               // Add more colors as needed
             ],
           },
